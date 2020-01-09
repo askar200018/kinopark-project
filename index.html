@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="reset.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="header-block">
+                    <div class="header-block__img">
+                        <img src="images/main-logo.png" alt="main-logo">
+                    </div>
+                    <!-- <div class="header-block__wrapper-btn">
+                        <a href="#" class="header-block__btn button">Алматы</a>
+                    </div> -->
+                    <button class="header-block__btn button">Алматы</button>
+                    <ul class="header-block__nav header-block-first-nav">
+                        <li>
+                            <a href="#" class="header-block__link">Расписание</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header-block__link">Скоро</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header-block__link">Еда и напитки</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header-block__link">Мой Kinopark</a>
+                        </li>
+                    </ul>
+                    <ul class="header-block__nav">
+                        <li>
+                            <a href="#" class="header-block__link">Вход / Регистрация</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header-block__link triangle-down">Руc</a>
+                        </li>
+                    </ul>
+                </div>  
+            </nav>
+            <div class="schedule">
+                <div class="schedule-block">
+                    <div class="schedule-info">
+                        <div class="block-info">
+                            <ul>
+                                <li>
+                                    <a href="#" class="block-info__link block-info__link_active">Фильмы</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="block-info__link">Сегодня в кино</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="block-info__link">Предпродажи</a>
+                                </li>
+                                <li class="block-info__list_bottom">
+                                    <a href="#" class="block-info__link">Фильмы в</a>
+                                    <img src="images/imax-icon.svg" alt="imax-icon">
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="block-info">
+                            <ul>
+                                <li>
+                                    <a href="#" class="block-info__link block-info__link_active">Экслюзив</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="block-info__link">Театр в кино</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="block-info__link">Original version</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="block-info__link">Концерты и фестивали</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="block-info__link">Документальное кино</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="schedule-block">
+                    <div class="main-heading">
+                        <h3 class="main-heading-title">
+                            Сегодня в кино
+                        </h3>
+                        <p class="main-heading-text">
+                            Все сеансы
+                        </p>
+                    </div>
+                    <div class="header-films-row">
+                        <div class="header-film">
+                            <div class="header-film-img">
+                                <img src="images/lion-king.png" alt="lion-king">
+                            </div>
+                            <p class="header-film-name">
+                                Король лев
+                            </p>
+                        </div>
+                        <div class="header-film">
+                            <div class="header-film-img">
+                                <img src="images/long-shot.png" alt="lion-king">
+                            </div>
+                            <p class="header-film-name">
+                                Та еще парочка
+                            </p>
+                        </div>
+                        <div class="header-film">
+                            <div class="header-film-img">
+                                <img src="images/toy-story.png" alt="lion-king">
+                            </div>
+                            <p class="header-film-name">
+                                История игрушек
+                            </p>
+                        </div>
+                        <div class="header-film">
+                            <div class="header-film-img">
+                                <img src="images/dream-film.png" alt="lion-king">
+                            </div>
+                            <p class="header-film-name">
+                                За мечтой
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- /header -->
+    <!-- Banner -->
+    <section class="banner-slider">
+        <div class="container-fluid p-0">
+            <div class="banner-slider-block">
+                <div class="banner-slider-one">
+                    <div>
+                        <img src="images/banner-slide-1.jpg" class="img-fluid" alt="banner-1">
+                    </div>
+                    <div>
+                        <img src="images/banner-slide-1.jpg" class="img-fluid" alt="banner-1">
+                    </div>
+                    <div>
+                        <img src="images/banner-slide-1.jpg" class="img-fluid" alt="banner-1">
+                    </div>
+                </div>
+                <div class="banner-btn">
+                    <span class="prev position-top">
+                        <img src="images/angle-left.svg" alt="left-arrow">
+                    </span>
+                    <span class="next position-top right-0">
+                        <img src="images/angle-right.svg" alt="left-arrow">
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Banner slider -->
+
+    <section class="films-about">
+        <div class="container">
+            <div class="heading">
+                <h3 class="heading__title">Сегодня в кино</h3>
+                <div class="heading__link-wrapper">
+                    <a href="#" class="heading__link">Смотреть полное расписание</a>
+                </div>
+            </div>
+            <div class="films">
+                <div class="film-row">
+                    <div class="film-about">
+                        <div class="film-about__wrapper">
+                            <div class="film-about__img">
+                                <img class="film-img" src="images/film-1.png" alt="film-1">
+                                <div class="rectangle2">18+</div>
+                            </div>
+                            <p class="film-about__name">План побега 3</p>
+                        </div>
+                    </div>
+                    <div class="film-about">
+                        <div class="film-about__wrapper">
+                            <div class="film-about__img">
+                                <img class="imax-left" src="images/imax-left.png" alt="imax">
+                                <img class="film-img" src="images/film-2.png" alt="film-1">
+                                <div class="rectangle2">12+</div>
+                            </div>
+                            <p class="film-about__name">Люди в черном: Интернэшнл</p>
+                        </div>
+                    </div>
+                    <div class="film-about">
+                        <div class="film-about__wrapper">
+                            <div class="film-about__img">
+                                <img class="film-img" src="images/film-3.png" alt="film-1">
+                                <div class="rectangle2">16+</div>
+                            </div>
+                            <p class="film-about__name">За мечтой</p>
+                        </div>
+                    </div>
+                    <div class="film-about">
+                        <div class="film-about__wrapper">
+                            <div class="film-about__img">
+                                <img class="imax-left" src="images/imax-left.png" alt="imax">
+                                <img class="film-img" src="images/film-4.png" alt="film-1">
+                                <div class="rectangle2">6+</div>
+                            </div>
+                            <p class="film-about__name">Аладдин</p>
+                        </div>
+                    </div>
+                    <div class="film-about">
+                        <div class="film-about__wrapper">
+                            <div class="film-about__img">
+                                <img class="film-img" src="images/film-5.png" alt="film-1">
+                                <div class="rectangle2">18+</div>
+                            </div>
+                            <p class="film-about__name">Рокетмен</p>
+                        </div>
+                    </div>
+                    <div class="film-about">
+                        <div class="film-about__wrapper">
+                            <div class="film-about__img">
+                                <img class="film-img" src="images/film-5.png" alt="film-1">
+                                <div class="rectangle2">18+</div>
+                            </div>
+                            <p class="film-about__name">Рокетмен</p>
+                        </div>
+                    </div>
+                    <div class="film-about">
+                        <div class="film-about__wrapper">
+                            <div class="film-about__img">
+                                <img class="film-img" src="images/film-5.png" alt="film-1">
+                                <div class="rectangle2">18+</div>
+                            </div>
+                            <p class="film-about__name">Рокетмен</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="films-btn">
+                    <span class="prev position-top">
+                        <img src="images/left-arrow-white.png" alt="left-arrow">
+                    </span>
+                    <span class="next position-top right-0">
+                        <img src="images/right-arrow.svg" alt="left-arrow">
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="hot-price-section">
+        <div class="container">
+            <div class="hot-price-heading heading">
+                <h2 class="heading__title">Hot Price</h2>
+                <div class="heading__link-wrapper">
+                    <a href="#" class="heading__link">Узнать подробнее об акции Hot Price</a>
+                </div>
+            </div>
+            <div class="films">
+                <div class="film-row">
+                    <div class="film-about">
+                        <div class="film-about__wrapper">
+                            <div class="film-about__img">
+                                <img class="hot-price" src="images/hot-price.png" alt="hot-price">
+                                <img class="film-img" src="images/film-1.png" alt="film-1">
+                                <div class="rectangle2">18+</div>
+                            </div>
+                            <p class="film-about__name">План побега 3</p>
+                        </div>
+                    </div>
+                    <div class="film-about">
+                        <div class="film-about__wrapper">
+                            <div class="film-about__img">
+                                <img class="imax-left" src="images/imax-left.png" alt="imax">
+                                <img class="hot-price" src="images/hot-price.png" alt="hot-price">
+                                <img class="film-img" src="images/film-2.png" alt="film-1">
+                                <div class="rectangle2">12+</div>
+                            </div>
+                            <p class="film-about__name">Люди в черном: Интернэшнл</p>
+                        </div>
+                    </div>
+                    <div class="film-about">
+                        <div class="film-about__wrapper">
+                            <div class="film-about__img">
+                                <img class="hot-price" src="images/hot-price.png" alt="hot-price">
+                                <img class="film-img" src="images/film-3.png" alt="film-1">
+                                <div class="rectangle2">16+</div>
+                            </div>
+                            <p class="film-about__name">За мечтой</p>
+                        </div>
+                    </div>
+                    <div class="film-about">
+                        <div class="film-about__wrapper">
+                            <div class="film-about__img">
+                                <img class="imax-left" src="images/imax-left.png" alt="imax">
+                                <img class="hot-price" src="images/hot-price.png" alt="hot-price">
+                                <img class="film-img" src="images/film-4.png" alt="film-1">
+                                <div class="rectangle2">6+</div>
+                            </div>
+                            <p class="film-about__name">Аладдин</p>
+                        </div>
+                    </div>
+                    <div class="film-about">
+                        <div class="film-about__wrapper">
+                            <div class="film-about__img">
+                                <img class="hot-price" src="images/hot-price.png" alt="hot-price">
+                                <img class="film-img" src="images/film-5.png" alt="film-1">
+                                <div class="rectangle2">18+</div>
+                            </div>
+                            <p class="film-about__name">Рокетмен</p>
+                        </div>
+                    </div>
+                    <div class="film-about">
+                        <div class="film-about__wrapper">
+                            <div class="film-about__img">
+                                <img class="hot-price" src="images/hot-price.png" alt="hot-price">
+                                <img class="film-img" src="images/film-5.png" alt="film-1">
+                                <div class="rectangle2">18+</div>
+                            </div>
+                            <p class="film-about__name">Рокетмен</p>
+                        </div>
+                    </div>
+                    <div class="film-about">
+                        <div class="film-about__wrapper">
+                            <div class="film-about__img">
+                                <img class="hot-price" src="images/hot-price.png" alt="hot-price">
+                                <img class="film-img" src="images/film-5.png" alt="film-1">
+                                <div class="rectangle2">18+</div>
+                            </div>
+                            <p class="film-about__name">Рокетмен</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="films-btn">
+                    <span class="prev position-top">
+                        <img src="images/left-arrow-white.png" alt="left-arrow">
+                    </span>
+                    <span class="next position-top right-0">
+                        <img src="images/right-arrow.svg" alt="left-arrow">
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="soon-films">
+        <div class="container">
+            <div class="heading">
+                <h3 class="heading__title">Скоро на экранах</h3>
+                <div class="heading__link-wrapper">
+                    <a href="#" class="heading__link">Смотреть все предстоящие фильмы</a>
+                </div>
+            </div>
+            <div class="films">
+                <div class="film-row">
+                    <div class="film-about">
+                        <div class="film-about__wrapper">
+                            <div class="film-about__img">
+                                <div class="resale">Предпродажа</div>
+                                <img class="film-img" src="images/film-6.png" alt="film-1">
+                                <div class="rectangle2">18+</div>
+                                <div class="date-to-start">c 18.07.2019</div>
+                            </div>
+                            <p class="film-about__name">Король лев</p>
+                        </div>
+                    </div>
+                    <div class="film-about">
+                        <div class="film-about__wrapper">
+                            <div class="film-about__img">
+                                <div class="resale">Предпродажа</div>
+                                <img class="imax-left" src="images/imax-left.png" alt="imax">
+                                <img class="film-img" src="images/film-7.png" alt="film-1">
+                                <div class="rectangle2">12+</div>
+                                <div class="date-to-start">c 18.07.2019</div>
+                            </div>
+                            <p class="film-about__name">Искусство обмана</p>
+                        </div>
+                    </div>
+                    <div class="film-about">
+                        <div class="film-about__wrapper">
+                            <div class="film-about__img">
+                                <img class="film-img" src="images/film-8.png" alt="film-1">
+                                <div class="rectangle2">16+</div>
+                                <div class="date-to-start">c 18.07.2019</div>
+                            </div>
+                            <p class="film-about__name">Мышеловка</p>
+                        </div>
+                    </div>
+                    <div class="film-about">
+                        <div class="film-about__wrapper">
+                            <div class="film-about__img">
+                                <img class="imax-left" src="images/imax-left.png" alt="imax">
+                                <img class="film-img" src="images/film-9.png" alt="film-1">
+                                <div class="rectangle2">6+</div>
+                                <div class="date-to-start">c 18.07.2019</div>
+                            </div>
+                            <p class="film-about__name">Обитель тьмы</p>
+                        </div>
+                    </div>
+                    <div class="film-about">
+                        <div class="film-about__wrapper">
+                            <div class="film-about__img">
+                                <img class="film-img" src="images/film-10.png" alt="film-1">
+                                <div class="rectangle2">18+</div>
+                                <div class="date-to-start">c 18.07.2019</div>
+                            </div>
+                            <p class="film-about__name">Солнцестояние</p>
+                        </div>
+                    </div>
+                    <div class="film-about">
+                        <div class="film-about__wrapper">
+                            <div class="film-about__img">
+                                <img class="film-img" src="images/film-1.png" alt="film-1">
+                                <div class="rectangle2">18+</div>
+                                <div class="date-to-start">c 18.07.2019</div>
+                            </div>
+                            <p class="film-about__name">Рокетмен</p>
+                        </div>
+                    </div>
+                    <div class="film-about">
+                        <div class="film-about__wrapper">
+                            <div class="film-about__img">
+                                <img class="film-img" src="images/film-5.png" alt="film-1">
+                                <div class="rectangle2">18+</div>
+                                <div class="date-to-start">c 18.07.2019</div>
+                            </div>
+                            <p class="film-about__name">Рокетмен</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="films-btn">
+                    <span class="prev position-top">
+                        <img src="images/left-arrow-white.png" alt="left-arrow">
+                    </span>
+                    <span class="next position-top right-0">
+                        <img src="images/right-arrow.svg" alt="left-arrow">
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="theater">
+        <div class="container">
+            <div class="heading">
+                <h3 class="heading__title">Театр HD</h3>
+                <div class="heading__link-wrapper">
+                    <a href="#" class="heading__link">Смотреть все постановки</a>
+                </div>
+            </div>
+            <div class="films">
+                <div class="film-row">
+                    <div class="film-about">
+                        <div class="film-about__wrapper">
+                            <div class="film-about__img">
+                                <img class="film-img" src="images/theater-img-1.png" alt="film-1">
+                                <div class="rectangle2">18+</div>
+                            </div>
+                            <p class="film-about__name">Лебединое озеро</p>
+                        </div>
+                    </div>
+                    <div class="film-about">
+                        <div class="film-about__wrapper">
+                            <div class="film-about__img">
+                                <img class="film-img" src="images/theater-img-2.png" alt="film-1">
+                                <div class="rectangle2">12+</div>
+                            </div>
+                            <p class="film-about__name">Жизель</p>
+                        </div>
+                    </div>
+                    <div class="film-about">
+                        <div class="film-about__wrapper">
+                            <div class="film-about__img">
+                                <img class="film-img" src="images/theater-img-3.png" alt="film-1">
+                                <div class="rectangle2">16+</div>
+                            </div>
+                            <p class="film-about__name">Севильский церюльник</p>
+                        </div>
+                    </div>
+                    <div class="film-about">
+                        <div class="film-about__wrapper">
+                            <div class="film-about__img">
+                                <img class="film-img" src="images/theater-img-4.png" alt="film-1">
+                                <div class="rectangle2">6+</div>
+                            </div>
+                            <p class="film-about__name">Богема</p>
+                        </div>
+                    </div>
+                    <div class="film-about">
+                        <a href="#">
+                            <div class="film-about__wrapper">
+                                <div class="film-about__img advertising-img">
+                                    <div class="advertising">Реклама</div>
+                                    <img class="film-img" src="images/advertising.png" alt="film-1">
+                                    <div class="advertising-text">Проголодался? 
+                                        Закажи на arimaze.kz</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="news-section">
+        <div class="container">
+            <div class="heading">
+                <h3 class="heading__title">Новости Kinopark</h3>
+                <div class="heading__link-wrapper">
+                    <a href="#" class="heading__link">Читать все новости</a>
+                </div>
+            </div>
+            <div class="news-row">
+                <div class="news-info">
+                    <div class="news-info__img">
+                        <img src="images/news-img-1.png" alt="">
+                    </div>
+                    <div class="news-info__wrapper">
+                        <p class="news-info__date">
+                            9 августа, 2019 г.
+                        </p>
+                        <h3 class="news-info__title">
+                            «Кино Ночь» в стиле MIAMI в Kinopark 5 Atakent
+                        </h3>
+                        <p class="news-info__text">
+                            17 августа приходите одетыми в стиле MIAMI и получите бесплатный комбо на...
+                        </p>
+                    </div>
+                </div>
+                <div class="news-info">
+                    <div class="news-info__img">
+                        <img src="images/news-img-2.png" alt="">
+                    </div>
+                    <div class="news-info__wrapper">
+                        <p class="news-info__date">
+                            1 августа, 2019 г.
+                        </p>
+                        <h3 class="news-info__title">
+                            Семейный Фестиваль в Kinoplexx Sary Arka
+                        </h3>
+                        <p class="news-info__text">
+                            Дорогие Алматинцы, приглашаем вас на Семейный Фестиваль в ресторане Plov&...
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias delectus totam quam optio. Incidunt cupiditate reiciendis dolor laborum quos consequatur exercitationem id ad, culpa obcaecati natus dolorum iure quasi saepe.
+                        </p>
+                    </div>
+                </div>
+                <div class="news-info">
+                    <div class="news-info__img">
+                        <img src="images/news-img-3.png" alt="">
+                    </div>
+                    <div class="news-info__wrapper">
+                        <p class="news-info__date">
+                            29 июля, 2019 г.
+                        </p>
+                        <h3 class="news-info__title">
+                            Kinopark объявляет финальные скидки
+                        </h3>
+                        <p class="news-info__text">
+                            Крупнейшая кинотеатральная компания Казахстана устраивает небывалую распр...
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci earum quaerat nesciunt exercitationem. Illo doloremque veritatis fuga quaerat nostrum, eaque velit beatae sequi possimus, magni vero rerum architecto repellat expedita.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                
+            </div>
+            <div class="footer-bottom"></div>
+        </div>
+    </footer>
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script src="main.js"></script>
+</body>
+</html>
