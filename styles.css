@@ -149,14 +149,68 @@ header {
     transform: scaleX(1);
 }
 
+/* Header ends */
+
 
 /* Dropdown section starts*/
 
+.border-margin {
+    height: 1000px;
+}
+
+.soon-films-header {
+    background-color: #0E0E0E;
+    padding: 32px 0;
+    display: none;
+}
+
+
+
+.soon-films-header .film-about{
+    width: 102px;
+}
+
+.soon-films-header .film-about__wrapper {
+    width: 100%;
+}
+
+.soon-films-header .resale {
+    padding: 3px 4px;
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.soon-films-header .date-to-start {
+    padding: 4px;
+    font-size: 10px;
+    line-height: 14px;
+    bottom: 4px;
+}
+
+
+.soon-films-header .rectangle2 {
+    bottom: 3px;
+}
+
+.soon-films-header .film-about__name {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 22px;
+    max-height: 44px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.soon-btn:hover .soon-films-header{
+    display: none;
+}
+
+.drowpdown-open {
+    display: block;
+}
+
 
 /* Dropdown section ends */
-
-/* Header ends */
-
 
 
 /* Banner-slider */
@@ -180,6 +234,57 @@ header {
 }
 
 /* Banner-slider ends */
+
+
+/* Section preview */
+
+.film-preview {
+    background-color: #141414;
+}
+
+.film-preview .film-row {
+    justify-content: space-between;
+}
+
+.film-preview .film-about {
+    width: 184px;
+}
+
+.film-preview .film-about__wrapper {
+    width: 100%;
+
+}
+
+.film-preview .film-about__img {
+    margin-bottom: 8px;
+}
+
+.film-preview .film-about__name {
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+.active-preview .film-about__name{
+    display: none;
+}
+
+.active-preview .film-about__wrapper{
+    position: relative;
+}
+.active-preview .film-about__wrapper::before {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    background:url('images/rectangle-down.svg') center no-repeat;
+}
+
+/* Section preivew ends */
 
 /* Films about */
 
@@ -337,7 +442,7 @@ header {
     height: 24px;
     bottom: 4px;
     left: 4px;
-    background-image: url('images/rectangle.png');
+    background-image: url('images/rectangle.svg');
     display: flex;
     justify-content: center;
     align-items: center;
