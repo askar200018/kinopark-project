@@ -49,24 +49,24 @@ $('.soon-films .film-row')
 
 
 
-$(document).ready(function(){
+// $(document).ready(function(){
 
-    $('.soon-btn').hover(function(){
-        $('.soon-films-header').addClass('drowpdown-open');
-    });
+//     $('.soon-btn').hover(function(){
+//         $('.soon-films-header').addClass('drowpdown-open');
+//     });
 
-    // $('.soon-btn').hover(function(){
-    //     $('.soon-films-header').removeClass('drowpdown-open');
-    // });
+//     // $('.soon-btn').hover(function(){
+//     //     $('.soon-films-header').removeClass('drowpdown-open');
+//     // });
     
-    // $(window).scroll(function(){
-    //     var sc = $(window).scrollTop();
-    //     if( sc > 100) {
-    //         $('.nav').addClass('sticky');
-    //     }
-    //     else{
-    //         $('.nav').removeClass('sticky');
-    //     }
-    // });
+//     // $(window).scroll(function(){
+//     //     var sc = $(window).scrollTop();
+//     //     if( sc > 100) {
+//     //         $('.nav').addClass('sticky');
+//     //     }
+//     //     else{
+//     //         $('.nav').removeClass('sticky');
+//     //     }
+//     // });
 
-});
+// });
